@@ -31,7 +31,7 @@ Dans l'output, vous devriez voir les pairs d'utilisateurs et le nombre de relati
 
 ### Job 3
 
-1. `hadoop jar /jars/tpfinal-guilhem_demontureux_job3.jar org.epf.hadoop.colfil3.ColFilJob3 /user/gdemontureux/output2/part-r-00000 /user/hvanheerden/output3`
+1. `hadoop jar /jars/tpfinal-guilhem_demontureux_job3.jar org.epf.hadoop.colfil3.ColFilJob3 /user/gdemontureux/output2/part-r-00000 /user/gdemontureux/output3`
 2. `hdfs dfs -cat /user/gdemontureux/output3/part-r-00000` pour afficher le résultat
 
 Dans l'output, vous devriez voir les recommendations pour chaque utilisateur.
